@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <ImageView android:id="@+id/splashscreen"
+        android:layout_width="530dp"
+        android:layout_height="500dp"
+        android:src="@mipmap/ic_logo"
+        android:layout_gravity="center"
+        android:padding="20dp"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meme_app_by_saikat"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/splashscreen"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:fontFamily="casual"/>
+
+</RelativeLayout>

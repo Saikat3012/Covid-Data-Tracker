@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Note App</string>
+    <string name="saikat">Saikat</string>
+    <string name="enter_your_note">Enter your note</string>
+    <string name="create">Create</string>
+    <string name="meme_app_by_saikat">Note app by SAIKAT</string>
+</resources>
